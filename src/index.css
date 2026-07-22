@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --text: #F4F1EA;
+  --bg: #4B70B7;
+  --header-text: #4B70B7;
+  --accent: #33579D;
+  --body: system-ui, 'Inter', Inter, sans-serif;
+  --heading: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
+
+}
+
+:root{
+  font: 18px/145% var(--body);
+  color: var(--text);
+  background: var(--bg);
+  background-image: url('src/assets/land-background.svg');
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h2{
+  color: var(--header-text);
+}
