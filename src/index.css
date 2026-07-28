@@ -2,6 +2,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
 @import "tailwindcss";
 
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html, body {
+  overflow-y: scroll;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none; 
+  scrollbar-width: none;
+}
+
 @theme {
   --text: #F4F1EA;
   --bg: #4B70B7;
@@ -9,20 +32,21 @@
   --accent: #33579D;
   --body: system-ui, 'Inter', Inter, sans-serif;
   --heading: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
-
 }
 
 :root{
   font: 18px/145% var(--body);
   color: var(--text);
   background: var(--bg);
+  margin: 0;
   background-image: url('src/assets/land-background.svg');
+    background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-h2{
+h3{
   color: var(--header-text);
 }
