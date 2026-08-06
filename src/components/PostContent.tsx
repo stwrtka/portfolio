@@ -1,10 +1,22 @@
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypeSanitize, { defaultSchema } from "rehype-sanitize";
 
 const mdModules = import.meta.glob("../content/*.md", {
-  as: "raw",
+  query: "?raw",
+  import: "default",
   eager: true,
 }) as Record<string, string>;
+
+const schema = {
+  ...defaultSchema,
+  tagNames: [...(defaultSchema.tagNames ?? []), "iframe"],
+  attributes: {
+    ...defaultSchema.attributes,
+    iframe: ["src", "width", "height", "frameBorder", "allow", "allowFullScreen", "title"],
+  },
+};
 
 interface PostContentProps {
   slug: string;
@@ -26,10 +38,11 @@ export function PostContent({ slug }: PostContentProps) {
     >
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
+        rehypePlugins={[rehypeRaw, [rehypeSanitize, schema]]}
         components={{
-            a: ({ node: _node, ...props }) => (
+          a: ({ node: _node, ...props }) => (
             <a {...props} target="_blank" rel="noopener noreferrer" />
-            ),
+          ),
         }}
       >
         {raw}

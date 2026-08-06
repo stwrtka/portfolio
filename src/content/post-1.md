@@ -1,29 +1,16 @@
-INTRODUCTION\
-This timeline adds a historical context to my favourite childhood game, Kid Pix. It explores the numerous versions of
-Kid Pix and all of the companies the Kid Pix brand was under until it was ultimately acquired by Software MacKiev.
-My goal with the Kid Pix timeline was to demonstrate how each company that owned Kid Pix continued to polish and expand the Kid Pix brand. While also keeping in mind Craig Hickman’s ultimate goal for Kid Pix, no guide was needed.  
+**INTRODUCTION**\
+This timeline adds a historical context to my favourite childhood game, Kid Pix. It explores the numerous versions of Kid Pix and all of the companies the Kid Pix brand was under until it was ultimately acquired by Software MacKiev.My goal with the Kid Pix timeline was to demonstrate how each company that owned Kid Pix continued to polish and expand the Kid Pix brand. While also keeping in mind Craig Hickman’s ultimate goal for Kid Pix, no guide was needed.  
 
+<iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=v2%3A2PACX-1vQ6Pqe2sUCh921uu297cvz9-voR3xq24kWP_pYGI2qKSUkdmURhqNYplD2bKY-z4TeuMMy6sNovCYaI&font=Default&lang=en&initial_zoom=2&width=100%25&height=650' width='100%' height='650' webkitallowfullscreen mozallowfullscreen allowfullscreen frameborder='0'></iframe>
 
-  
-SURPRISES\
-Many surprises popped up while researching for this timeline. The biggest surprise was the origin story of Kid Pix.
-Until now, I always thought a huge company was behind the creation of Kid Pix and that it was released in the early 2000’s.In reality, this nostalgic masterpiece was created by a father who noticed that his kid struggled when using MacPaint. Furthermore, the fact that so many people went to great lengths to archive the older versions of Kid Pix really demonstrated how much of an impact Kid Pix had on a whole generation of kids. There’s even a website reimplementation version of Kid Pix 1.0 that someone created. This timeline tries to communicate the realization I had while researching: what you create doesn't have to be incredibly complex, but rather it needs to prioritize and understand its audience.
+**SURPRISES**\
+Many surprises popped up while researching for this timeline. The biggest surprise was the origin story of Kid Pix. Until now, I always thought a huge company was behind the creation of Kid Pix and that it was released in the early 2000’s.In reality, this nostalgic masterpiece was created by a father who noticed that his kid struggled when using MacPaint. Furthermore, the fact that so many people went to great lengths to archive the older versions of Kid Pix really demonstrated how much of an impact Kid Pix had on a whole generation of kids. There’s even a website reimplementation version of Kid Pix 1.0 that someone created. This timeline tries to communicate the realization I had while researching: what you create doesn't have to be incredibly complex, but rather it needs to prioritize and understand its audience. I already knew that Kid Pix had an impact on many peoples childhood but, I found out there are emulations for multiple Kid Pix versions which is really surprising. There's even a JS reimplentation of Kid Pix 1.0!  
 
-I already knew that Kid Pix had an impact on many peoples childhood but, I found out there are emulations for multiple Kid Pix versions which is really surprising. There's even a JS reimplentation of Kid Pix 1.0!
+*Here are some links to the ones I have found so far!*
++ [Kid Pix 1.0 by Craig Hickman](https://archive.org/details/kid-pix-10)
++ [Kid Pix by Broderbund](https://archive.org/details/KID_PIX_WIN)
++ [Kid Pix Studio Deluxe by Broderbund](https://archive.org/details/kid-pix-sd-win31)
++ [Kid Pix JS (not offical)](https://kidpix.neocities.org/)
 
-Here are some links to the ones I have found so far!
-
-Kid Pix 1.0 by Craig Hickman
-Kid Pix by Broderbund
-Kid Pix Studio Deluxe by Broderbund
-Kid Pix JS (not offical)
-
-REFLECTION\
-Timelines are often used to provide historical context for various things such as events, language, and technology.
-It offers a bird's-eye view of the particular thing it is covering and can demonstrate the advancements or downfall of
-the thing it is providing context for. In creating the Kid Pix timeline, I was able to capture a general view of the evolution of Kid Pix throughout the years.
-
-Despite timelines being very helpful, they can easily become a problem when many events are known to happen, but there is little information about what exactly happened during that particular event. This issue happened during the creation of the timeline.
-Oftentimes, I was able to find the exact release date for a Kid Pix version, but there was not a lot of information about exactly what was added or updated. Knowing the exact changes would have helped to give the timeline an even clearer outline of Kid Pix’s advancements. Furthermore, when many of these types of events occurred back-to-back, it was a challenge to figureout how the events should be placed on the timeline. I was stuck between giving the event its own spot versus combining the back-to-back years. Ultimately, I decided to combine the years due to the lack of online information.
-
-Overall, when creating this timeline, I truly learned that they can be really helpful to pinpoint clear milestones or turning points in history. But, they can also be inefficient for the nitty-gritty details in that history. However, this perspective I have might be due to what my timeline was based on. It is possible that if I picked a broader topic, the issue I faced would have never happened.
+**REFLECTION**\
+Timelines are often used to provide historical context for various things such as events, language, and technology.It offers a bird's-eye view of the particular thing it is covering and can demonstrate the advancements or downfall of the thing it is providing context for. In creating the Kid Pix timeline, I was able to capture a general view of the evolution of Kid Pix throughout the years.Despite timelines being very helpful, they can easily become a problem when many events are known to happen, but there is little information about what exactly happened during that particular event. This issue happened during the creation of the timeline Oftentimes, I was able to find the exact release date for a Kid Pix version, but there was not a lot of information about exactly what was added or updated. Knowing the exact changes would have helped to give the timeline an even clearer outline of Kid Pix’s advancements. Furthermore, when many of these types of events occurred back-to-back, it was a challenge to figureout how the events should be placed on the timeline. I was stuck between giving the event its own spot versus combining the back-to-back years. Ultimately, I decided to combine the years due to the lack of online information. Overall, when creating this timeline, I truly learned that they can be really helpful to pinpoint clear milestones or turning points in history. But, they can also be inefficient for the nitty-gritty details in that history. However, this perspective I have might be due to what my timeline was based on. It is possible that if I picked a broader topic, the issue I faced would have never happened.

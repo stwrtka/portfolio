@@ -40,7 +40,8 @@ html, body {
   background: var(--bg);
   margin: 0;
   background-image: url('src/assets/land-background.svg');
-    background-repeat: no-repeat;
+  background-size: 100% ;
+  background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
