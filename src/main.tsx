@@ -7,7 +7,7 @@ import './index.css'
 
  
  
-/* footer: <img className="sticky top-0" src='src\assets\footer.svg'/> */
+ 
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
@@ -22,7 +22,7 @@ createRoot(document.getElementById('root')!).render(
       <div id="blog" className='pb-'>
         <Blog />
       </div>
-    
+      <img className="sticky top-0" src='src\assets\footer.svg'/>
     </div>
   </div>
   
