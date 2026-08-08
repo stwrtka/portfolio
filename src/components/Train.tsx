@@ -28,7 +28,7 @@ function TrainCarousel() {
     }, 200);
     const smokeId = setInterval(() => {
       setSmokeFrame((f) => (f + 1) % smokeFrames.length);
-    }, 700);
+    }, 300);
     return () => {
       clearInterval(wheelId);
       clearInterval(smokeId);
