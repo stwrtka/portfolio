@@ -32,6 +32,8 @@ html, body {
   --accent: #33579D;
   --body: system-ui, 'Inter', Inter, sans-serif;
   --heading: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
+
+  --animate-train: train 17s linear infinite;
 }
 
 :root{
@@ -50,4 +52,23 @@ html, body {
 
 h3{
   color: var(--header-text);
+}
+
+@keyframes train {
+  0% {
+    transform: translateX(100vw);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes smoke {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(4px, -6px);
+  }
+
 }
