@@ -39,7 +39,7 @@ html, body {
   color: var(--text);
   background: var(--bg);
   margin: 0;
-  background-image: url('src/assets/land-background.svg');
+  background-image: url('/src/assets/land-background.svg');
   background-size: 100% ;
   background-repeat: no-repeat;
   font-synthesis: none;
