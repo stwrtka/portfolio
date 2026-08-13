@@ -1,4 +1,9 @@
 import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGamepad } from "@fortawesome/free-solid-svg-icons";
+import { faPaintbrush } from "@fortawesome/free-solid-svg-icons";
 
 const wheelFrames = [
   "'U'0 0  0 0  0 0  0 0",
@@ -51,8 +56,11 @@ function TrainCarousel() {
         </span>
       </pre>
 
-        <div className='pt-12 pl-5'>
-          <p>lets connect</p>
+        <div className='pt-12 pl-5 flex flex-row gap-5'>
+          <a href='https://www.linkedin.com/in/khadijastewart/' target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
+          <a href='https://149hst.itch.io/' target="_blank" rel="noopener noreferrer" aria-label="itch.io"><FontAwesomeIcon icon={faGamepad} size='2x' /></a>
+          <a href='https://www.instagram.com/149hst/' target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FontAwesomeIcon icon={faPaintbrush} size='2x' /></a>
+          <a href='mailto:k.stewxrt@gmail.com'><FontAwesomeIcon icon={faEnvelope} size='2x' /></a>
         </div>
       </div>
     </div>

@@ -11,10 +11,12 @@ const mdModules = import.meta.glob("../content/*.md", {
 
 const schema = {
   ...defaultSchema,
-  tagNames: [...(defaultSchema.tagNames ?? []), "iframe"],
+  tagNames: [...(defaultSchema.tagNames ?? []), "iframe", "u", "video", "source"],
   attributes: {
     ...defaultSchema.attributes,
     iframe: ["src", "width", "height", "frameBorder", "allow", "allowFullScreen", "title"],
+    video: ["width", "height", "loop", "autoplay", "muted", "controls"],
+    source: ["src", "type"],
   },
 };
 
