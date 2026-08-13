@@ -7,7 +7,6 @@ const wheelFrames = [
   "'U'O o  O o  O o  O o",
 ];
 
-// each frame: [vertical offset, smoke pattern] — starts as a single dot, grows outward, rises
 const smokeFrames = [
   { top: 0,   pattern: "    .                                  " },
   { top: -5,  pattern: "    .  o                                " },
@@ -37,7 +36,8 @@ function TrainCarousel() {
 
   return (
     <div className="overflow-hidden whitespace-nowrap w-full">
-      <pre className="inline-block font-mono text-stone-100 animate-train relative">
+      <div className='flex flex-row animate-train w-max'>
+      <pre className="inline-block font- text-stone-100 relative">
 {`   
   _||__ ____ ____ ____
  (o)___)}___}}___}}___}
@@ -47,9 +47,16 @@ function TrainCarousel() {
           style={{ top: `${smokeFrames[smokeFrame].top}px` }}
         >
           {smokeFrames[smokeFrame].pattern}
+         
         </span>
       </pre>
+
+        <div className='pt-12 pl-5'>
+          <p>lets connect</p>
+        </div>
+      </div>
     </div>
+    
   );
 }
 

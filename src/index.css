@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 @import "tailwindcss";
 
 .no-scrollbar::-webkit-scrollbar {
@@ -31,8 +32,7 @@ html, body {
   --header-text: #4B70B7;
   --accent: #33579D;
   --body: system-ui, 'Inter', Inter, sans-serif;
-  --heading: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
-
+  --font-Bowlby-One-SC: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
   --animate-train: train 17s linear infinite;
 }
 
