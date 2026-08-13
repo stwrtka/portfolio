@@ -37,7 +37,7 @@ function TrainCarousel() {
   return (
     <div className="overflow-hidden whitespace-nowrap w-full">
       <div className='flex flex-row animate-train w-max'>
-      <pre className="inline-block font- text-stone-100 relative">
+      <pre className="inline-block text-stone-100 relative">
 {`   
   _||__ ____ ____ ____
  (o)___)}___}}___}}___}
