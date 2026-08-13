@@ -28,7 +28,7 @@ html, body {
 
 @theme {
   --text: #F4F1EA;
-  --bg: #4B70B7;
+  --color-blue: #4B70B7;
   --header-text: #4B70B7;
   --accent: #33579D;
   --body: system-ui, 'Inter', Inter, sans-serif;
@@ -39,7 +39,7 @@ html, body {
 :root{
   font: 18px/145% var(--body);
   color: var(--text);
-  background: var(--bg);
+  background: var(--color-blue);
   margin: 0;
   background-image: url('/src/assets/land-background.svg');
   background-size: 100% ;
