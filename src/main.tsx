@@ -20,7 +20,7 @@ createRoot(document.getElementById('root')!).render(
             <ProjectCard icon={FinalStory} title='Final Story' tech_stack='C, DevKitPro' description='3Ds Game' git_link='https://github.com/stwrtka/final-story'/>
             <ProjectCard icon={NomRoulette} title='Nom Roulette' tech_stack='Figma, React' description="Can't decide what to eat?" git_link='https://github.com/stwrtka/Nom-Roulette'/>
           </div>
-        <div id="blog" className='pb-10 font-Bowlby-One-SC'>
+          <div id="blog" className='pb-10 font-Bowlby-One-SC'>
           <Blog />
         </div>
       </div>

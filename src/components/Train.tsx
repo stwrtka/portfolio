@@ -4,6 +4,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faGamepad } from "@fortawesome/free-solid-svg-icons";
 import { faPaintbrush } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const wheelFrames = [
   "'U'0 0  0 0  0 0  0 0",
@@ -61,6 +62,7 @@ function TrainCarousel() {
           <a href='https://149hst.itch.io/' target="_blank" rel="noopener noreferrer" aria-label="itch.io"><FontAwesomeIcon icon={faGamepad} size='2x' /></a>
           <a href='https://www.instagram.com/149hst/' target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FontAwesomeIcon icon={faPaintbrush} size='2x' /></a>
           <a href='mailto:k.stewxrt@gmail.com'><FontAwesomeIcon icon={faEnvelope} size='2x' /></a>
+          <a href='https://github.com/stwrtka'><FontAwesomeIcon icon={faGithub} size='2x' /></a>
         </div>
       </div>
     </div>
