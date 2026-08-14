@@ -13,12 +13,12 @@ function ProjectCard(content: CardInfo) {
   if(content.icon)
     {
       return ( 
-      <div className="w-80 h-40 relative overflow-hidden">
-        <div className="left-0 absolute inline-flex justify-start content-center gap-3.5">
+      <div className="w-80 h-30 relative overflow-hidden items-center">
+        <div className="left-0 inline-flex justify-start">
            <a href={content.git_link}>
-            <img className="relative" src={content.icon} />
+            <img className="scale-90"  src={content.icon} />
             </a>
-          <div className="w-45 h-30 inline-flex flex-col justify-start gap-1">
+          <div className="inline-flex flex-col justify-start gap-1">
             <div className="self-stretch justify-start text-stone-100 text-base font-bold">{content.title}</div>
             <div className="self-stretch justify-start text-stone-100 text-sm font-normal">{content.tech_stack}</div>
             <div className="self-stretch justify-start text-stone-100 text-xs font-normal">{content.description}</div>
@@ -28,12 +28,12 @@ function ProjectCard(content: CardInfo) {
     )
   }
   return ( 
-    <div className="w-80 h-40 relative overflow-hidden">
-      <div className="left-0 absolute inline-flex justify-start content-center gap-3.5">
+    <div className="w-80 h-30 relative overflow-hidden items-center">
+      <div className="left-0 inline-flex gap-3.5">
         <a href={content.git_link}>
-          <img className="relative scale-80" src={Bunny}/>
+          <img src={Bunny}/>
         </a>
-        <div className="w-45 h-30 inline-flex flex-col justify-start gap-1">
+        <div className="inline-flex flex-col justify-start gap-1">
           <div className="self-stretch justify-start text-stone-100 text-base font-bold">{content.title}</div>
           <div className="self-stretch justify-start text-stone-100 text-base font-normal">{content.tech_stack}</div>
           <div className="self-stretch justify-start text-stone-100 text-xs font-normal">{content.description}</div>
