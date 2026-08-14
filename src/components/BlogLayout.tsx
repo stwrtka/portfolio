@@ -8,7 +8,7 @@ export default function BlogLayout() {
 
   return (
     <div className="min-h-screen text-white grid grid-cols-1 md:grid-cols-[25%_75%]">
-      <div className="p-10 overflow-y-auto max-h-screen no-scrollbar">
+      <div className="p-1 overflow-y-auto max-h-screen no-scrollbar">
         <h2 className="text-4xl font-extrabold uppercase tracking-wide ">
           Blog Posts
         </h2>
@@ -32,7 +32,7 @@ export default function BlogLayout() {
         </ul>
       </div>
 
-      <div className="p-10 overflow-y-auto max-h-screen no-scrollbar">
+      <div className="px-10 overflow-y-auto max-h-screen no-scrollbar">
         {selected ? (
           <>
             <h1 className="text-5xl font-extrabold uppercase tracking-wide">
