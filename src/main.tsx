@@ -5,7 +5,6 @@ import Blog from './components/BlogLayout.tsx'
 import Logo from './assets/logo.svg'
 import FinalStory from './assets/3ds-side-by-side.png'
 import NomRoulette from './assets/nom-roulette-logo.svg'
-import Footer from './assets/footer.svg' //  <img src={Footer} alt='Footer' className='w-full' />
 import Train from './components/Train.tsx'
 import BunnyNoEyes from './assets/bunny-no-eyes.svg'
 
