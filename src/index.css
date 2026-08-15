@@ -30,7 +30,7 @@ html, body {
   --text: #F4F1EA;
   --color-blue: #4B70B7;
   --header-text: #4B70B7;
-  --accent: #33579D;
+  --color-accent: #33579D;
   --body: system-ui, 'Inter', Inter, sans-serif;
   --font-Bowlby-One-SC: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
   --animate-train: train 17s linear infinite;

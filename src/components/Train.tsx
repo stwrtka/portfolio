@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
@@ -57,12 +59,29 @@ function TrainCarousel() {
         </span>
       </pre>
 
-        <div className='pt-12 pl-5 flex flex-row gap-5'>
-          <a href='https://www.linkedin.com/in/khadijastewart/' target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} size='2x' /></a>
-          <a href='https://149hst.itch.io/' target="_blank" rel="noopener noreferrer" aria-label="itch.io"><FontAwesomeIcon icon={faGamepad} size='2x' /></a>
-          <a href='https://www.instagram.com/149hst/' target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FontAwesomeIcon icon={faPaintbrush} size='2x' /></a>
-          <a href='mailto:k.stewxrt@gmail.com'><FontAwesomeIcon icon={faEnvelope} size='2x' /></a>
-          <a href='https://github.com/stwrtka'><FontAwesomeIcon icon={faGithub} size='2x' /></a>
+        <div className='pt-16 pl-5 flex flex-row gap-5'>
+         <div className='flex flex-row gap-7'>
+          <div className='flex flex-row gap-2'>
+            <a href='https://www.linkedin.com/in/khadijastewart/' target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><FontAwesomeIcon icon={faLinkedin} /></a>
+            <p className='text-sm'>LinkedIn</p>
+          </div>
+          <div className='flex flex-row gap-2'>
+            <a href='https://149hst.itch.io/' target="_blank" rel="noopener noreferrer" aria-label="itch.io"><FontAwesomeIcon icon={faGamepad} /></a>
+            <p className='text-sm'>Itch.io</p>
+          </div>
+          <div className='flex flex-row gap-2'>
+            <a href='https://www.instagram.com/149hst/' target="_blank" rel="noopener noreferrer" aria-label="Instagram"><FontAwesomeIcon icon={faPaintbrush} /></a>
+            <p className='text-sm'>Design</p>
+          </div>
+          <div className='flex flex-row gap-2'>
+            <a href='mailto:k.stewxrt@gmail.com'><FontAwesomeIcon icon={faEnvelope} /></a>
+            <p className='text-sm'>Email</p>
+          </div>
+          <div className='flex flex-row gap-2'>
+            <a href='https://github.com/stwrtka'><FontAwesomeIcon icon={faGithub} /></a>
+            <p className='text-sm'>GitHub</p>
+          </div>
+        </div>
         </div>
       </div>
     </div>
