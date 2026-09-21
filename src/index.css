@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 @import "tailwindcss";
 
@@ -27,48 +26,22 @@ html, body {
 }
 
 @theme {
-  --text: #F4F1EA;
-  --color-blue: #4B70B7;
-  --header-text: #4B70B7;
-  --color-accent: #33579D;
-  --body: system-ui, 'Inter', Inter, sans-serif;
-  --font-Bowlby-One-SC: system-ui, 'Bowlby_One_SC', Bowlby One SC, sans-serif;
-  --animate-train: train 17s linear infinite;
+  --color-black: #1D2021;
+  --color-gray: #32302F;
+  --color-white: #D5C4A1;
+  --color-green: #B8BB26;
+  --color-yellow: #FABD2F;
+  --color-pink: #D3869B;
+  --body: system-ui, 'Arimo', Arimo, sans-serif;
 }
 
 :root{
   font: 18px/145% var(--body);
-  color: var(--text);
-  background: var(--color-blue);
+  color: var(--color-white);
+  background: var(--color-gray);
   margin: 0;
-  background-image: url('/src/assets/land-background.svg');
-  background-size: 100% ;
-  background-repeat: no-repeat;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-h3{
-  color: var(--header-text);
-}
-
-@keyframes train {
-  0% {
-    transform: translateX(100vw);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes smoke {
-  0% {
-    transform: translate(0, 0);
-  }
-  100% {
-    transform: translate(4px, -6px);
-  }
-
 }

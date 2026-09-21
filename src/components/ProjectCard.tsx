@@ -19,9 +19,9 @@ function ProjectCard(content: CardInfo) {
             <img className="scale-90"  src={content.icon} />
             </a>
           <div className="inline-flex flex-col justify-start gap-1">
-            <div className="self-stretch justify-start text-stone-100 text-base font-bold">{content.title}</div>
-            <div className="self-stretch justify-start text-stone-100 text-sm font-normal">{content.tech_stack}</div>
-            <div className="self-stretch justify-start text-stone-100 text-xs font-normal">{content.description}</div>
+            <div className="self-stretch justify-starttext-base font-bold">{content.title}</div>
+            <div className="self-stretch justify-start text-sm font-normal">{content.tech_stack}</div>
+            <div className="self-stretch justify-star text-xs font-normal">{content.description}</div>
           </div>
         </div>
       </div>
