@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { posts } from "../data/posts";
+import { posts } from "../data/Posts";
 import { PostContent } from "./PostContent";
 
 export default function BlogLayout() {
