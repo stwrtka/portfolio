@@ -35,4 +35,11 @@ export const posts: BlogPost[] = [
     course: "CTS*2010",
     slug: "post-4",
   },
+    {
+    id: "5",
+    title: "OED",
+    date:"09.29.2026",
+    course: "CTS*1000",
+    slug: "post-5",
+  },
 ];
