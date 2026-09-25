@@ -24,10 +24,14 @@ function Home () {
           <ProjectCard icon={NomRoulette} title='Nom Roulette' tech_stack='Figma' description="Can't decide what to eat?" link='https://www.figma.com/proto/gFWvx2QGcUpa9KjzOLQbNj/Nom-Roulette?node-id=106-410&p=f&viewport=151%2C392%2C0.12&t=CVQW6TUHVK1UMSC3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=106%3A410&page-id=0%3A1'/>
       </div>
 
-    <footer className='w-full pt-2 pb-5 static fill-black'>
-      <p className='text-sm text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>
-    </footer>
-    </div>
+      <footer className='flex justify-between pt-2 static'>
+        <p className='text-xs text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>
+        <div className='flex gap-5'>
+          <a href='https://www.linkedin.com/in/khadijastewart/'className='text-xs text-white underline'>Linkedin</a>
+          <a href='https://github.com/stwrtka'className='text-xs text-white underline'>GitHub</a>
+        </div>
+        </footer>
+      </div>
     </div>
    )
 }
