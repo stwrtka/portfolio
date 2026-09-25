@@ -19,7 +19,7 @@ function ProjectCard(content: CardInfo) {
             <a href={content.link}>
               <div className="self-stretch justify-start text-green text-base font-bold">{content.title}</div>
             </a>
-            <div className="self-stretch justify-start text-sm font-normal">{content.tech_stack}</div>
+            <div className="self-stretch justify-start text-sm font-normal  text-yellow">{content.tech_stack}</div>
             <div className="self-stretch justify-star text-xs font-normal">{content.description}</div>
           </div>
         </div>
@@ -33,7 +33,7 @@ function ProjectCard(content: CardInfo) {
           <a href={content.link}>
             <div className="self-stretch justify-start text-green text-base font-bold">{content.title}</div>
           </a>
-          <div className="self-stretch justify-start text-base font-normal">{content.tech_stack}</div>
+          <div className="self-stretch justify-start text-base font-normal text-yellow">{content.tech_stack}</div>
           <div className="self-stretch justify-start text-xs font-normal">{content.description}</div>
         </div>
       </div>

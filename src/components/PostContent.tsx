@@ -34,7 +34,7 @@ export function PostContent({ slug }: PostContentProps) {
   return (
     <div
       className="prose prose-invert max-w-none mt-6
-        prose-headings:font-extrabold prose-headings:uppercase
+        prose-headings:font-bold
         prose-a:text-white prose-blockquote:border-white/50
         prose-code:text-white prose-strong:text-white"
     >

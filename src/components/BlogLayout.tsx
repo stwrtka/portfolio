@@ -9,10 +9,10 @@ export default function BlogLayout() {
   return (
     <div className="min-h-screen text-white grid grid-cols-1 md:grid-cols-[25%_75%]">
       <div className="p-1 overflow-y-auto max-h-screen no-scrollbar">
-        <h2 className="text-4xl font-extrabold uppercase tracking-wide ">
-          Blog Posts
+        <h2 className="text-2xl text-green tracking-wide ">
+          blog.
         </h2>
-        <div className="w-60 h-1 bg-white my-5" />
+        <div className="w-60 h-0.5 bg-white my-5" />
 
         <ul className="space-y-6">
           {posts.map((post) => (
@@ -23,9 +23,10 @@ export default function BlogLayout() {
                   selectedId === post.id ? "bg-white/10" : "hover:bg-white/5"
                 }`}
               >
-                <div className="font-medium text-base">{post.title}</div>
-                <div className="text-sm text-white/80">{post.date}</div>
-                <div className="text-sm text-white/80">{post.course}</div>
+                <div className="text-base">{post.title}</div>
+                <div className="text-sm text-pink/80">{post.course}</div>
+
+                <div className="text-sm text-yellow/80">{post.date}</div>
               </button>
             </li>
           ))}
@@ -35,10 +36,10 @@ export default function BlogLayout() {
       <div className="px-10 overflow-y-auto max-h-screen no-scrollbar">
         {selected ? (
           <>
-            <h1 className="text-5xl font-extrabold uppercase tracking-wide">
+            <h1 className="text-5xl font-bold tracking-wide">
               {selected.title}
             </h1>
-            <p className="font-semibold text-white/90 mt-2">{selected.course}</p>
+            <p className="font- text-pink/90 mt-2">{selected.course}</p>
             <PostContent slug={selected.slug} />
           </>
         ) : (
