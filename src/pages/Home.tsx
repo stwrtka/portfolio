@@ -1,6 +1,3 @@
-import ProjectCard from '../components/ProjectCard'
-import FinalStory from '../assets/3ds-side-by-side.png'
-import NomRoulette from '../assets/nom-roulette-logo.svg'
 import '../index.css'
 
 function Home () {
@@ -12,19 +9,15 @@ function Home () {
           <h1 className='text-5xl pb-2'>Khadija Stewart</h1>
           <p className='border-b-2 w-120 py-2'>Computer Science, CTS & Math @ University of Guelph</p>
           <ul className='pt-2'>
-            <li>Curr. Graphic Design @ UofT Hacks</li>
-            <li>Prev. Undergraduate Research Assignment @ University of Guelph</li>
+            <li>Curr. Graphic Design @ UofTHacks</li>
+            <li>Prev. Undergraduate Research Assistant @ University of Guelph</li>
           </ul>
          <p><br></br>Seeking 2027 Summer Internships</p>
       </div>
+
       <a href='/blog' className='font-bold text-pink'>blog →</a>
-      <a href='/design' className='font-bold text-pink'>design →</a>
-
-
-      <div id="projects" className="flex grid-cols-3 gap-20">
-          <ProjectCard icon={FinalStory} title='Final Story' tech_stack='C, DevKitPro' description='3Ds Game' link='https://github.com/stwrtka/final-story'/>
-          <ProjectCard icon={NomRoulette} title='Nom Roulette' tech_stack='Figma' description="Can't decide what to eat?" link='https://www.figma.com/proto/gFWvx2QGcUpa9KjzOLQbNj/Nom-Roulette?node-id=106-410&p=f&viewport=151%2C392%2C0.12&t=CVQW6TUHVK1UMSC3-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=106%3A410&page-id=0%3A1'/>
-      </div>
+      <a href='/design' className='font-bold text-green'>design →</a>
+      <a href='/projects' className='font-bold text-yellow'>projects →</a>
 
       <footer className='flex justify-between pt-2 static'>
         <p className='text-xs text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>

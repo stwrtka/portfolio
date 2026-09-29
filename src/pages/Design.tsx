@@ -8,8 +8,6 @@ import BxBPlayerHit from '../assets/game-art/Player Hit.gif'
 import UGGTitleScreen from '../assets/game-art/Title Screen Background.jpg'
 import UGGcreen from '../assets/game-art/Untitled Ghost Game.jpg'
 
-
-
 import '../index.css'
 
 function Design () {

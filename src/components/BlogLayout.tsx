@@ -9,9 +9,7 @@ export default function BlogLayout() {
   return (
     <div className="min-h-screen text-white grid grid-cols-1 md:grid-cols-[25%_75%]">
       <div className="p-1 overflow-y-auto max-h-screen no-scrollbar">
-        <h2 className="text-2xl text-green tracking-wide ">
-          blog.
-        </h2>
+        <h2 className="text-2xl text-pink tracking-wide "> blog.</h2>
         <div className="w-60 h-0.5 bg-white my-5" />
 
         <ul className="space-y-6">
