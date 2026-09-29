@@ -7,7 +7,7 @@ function BlogView () {
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <div className='pt-5 pb-5'>
           <BlogLayout />
-          <a href='/' className='font-bold text-pink' >Home →</a>
+          <a href='/' className='font-bold text-pink pt-5'>home →</a>
         </div>
 
     <footer className='flex justify-between pt-2 static'>

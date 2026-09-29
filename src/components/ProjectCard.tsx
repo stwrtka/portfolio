@@ -14,7 +14,7 @@ function ProjectCard(content: CardInfo) {
       return ( 
       <div className="w-80 h-30 relative overflow-hidden items-center">
         <div className="left-0 inline-flex justify-start">
-          <img className="scale-90"  src={content.icon} />
+          <img className="scale-90" src={content.icon} />
           <div className="inline-flex flex-col justify-start gap-1">
             <a href={content.link}>
               <div className="self-stretch justify-start text-green text-base font-bold">{content.title}</div>

@@ -17,7 +17,9 @@ function Home () {
           </ul>
          <p><br></br>Seeking 2027 Summer Internships</p>
       </div>
-      <a href='/blog' className='font-bold text-pink'>Blog →</a>
+      <a href='/blog' className='font-bold text-pink'>blog →</a>
+      <a href='/design' className='font-bold text-pink'>design →</a>
+
 
       <div id="projects" className="flex grid-cols-3 gap-20">
           <ProjectCard icon={FinalStory} title='Final Story' tech_stack='C, DevKitPro' description='3Ds Game' link='https://github.com/stwrtka/final-story'/>
