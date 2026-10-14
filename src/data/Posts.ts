@@ -37,7 +37,7 @@ export const posts: BlogPost[] = [
   },
     {
     id: "5",
-    title: "OED",
+    title: "Visualization Analysis",
     date:"09.29.2026",
     course: "CTS*1000",
     slug: "post-5",

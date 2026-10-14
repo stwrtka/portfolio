@@ -1,2 +1,11 @@
-**Encrypt**
-W.I.P
+**Visualization Analysis: Algorithmic Power**
+
+<a href="https://jasonfenggit.github.io/Visualizer/"><u>Visualizer</u></a> is an interactive pathfinding algorithm visualization that demonstrates the keyword power through mapping and design choices that limit the tools demographic.
+
+The creator of this visualization, Zhenbang Feng, is a Master Student at The University of Southern California and made this visualization to “help people to view algorithmic processes intuitively and entertainingly.” The overall project site has a clean interface with an easy to read font, colours and symbols. Additionally, it provides a short general description about pathfinding and how to interact with the tool. However, it lacks a description for individual algorithms within the general pathfinding algorithm. Furthermore, there is no explicit data displayed on the site, such as the time complexity or space complexity.
+
+In Design for Information, Isabel Meirelles mentions that maps have the “shared characteristic of being “a diagram or collection of data showing the spatial distribution of something or the relative positions of its components.”1 The oldest (c. 1527), and perhaps the most frequent, use of the term map refers to representations of geographical data.” (115) Feng’s visualization is an example of a map that does not contain geographical data but rather relies on an algorithm that generates new data every time it runs. It offers a relative position diagram for each pathfinding algorithm via an animation that is played while the algorithm runs. Every animation mimics how its respective algorithm works and visualizes the distance between the start and target symbol. For instance, the Depth First Search (DFS) algorithm has a snake-like animation, illustrating how this algorithm goes deep and makes its way back up. 
+
+As previously mentioned the site does not provide individual descriptions for the subcategories of the pathfinding algorithms. By not having these descriptions it makes it clear that this visualization  is intended for people who already know how these algorithms work. Without this previous knowledge certain aspects of the visualization become unclear such as the animations that play while the algorithm runs. 
+
+Zhenbang Feng’s visualization has transformed my understanding of the keyword power by the design choices made on the website. Each choice was a deliberate decision and only displayed information that Feng thought was important. These decisions left out information that would make this visualization accessible to a larger audience.
