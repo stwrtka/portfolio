@@ -7,10 +7,10 @@ This timeline adds a historical context to my favourite childhood game, Kid Pix.
 Many surprises popped up while researching for this timeline. The biggest surprise was the origin story of Kid Pix. Until now, I always thought a huge company was behind the creation of Kid Pix and that it was released in the early 2000’s.In reality, this nostalgic masterpiece was created by a father who noticed that his kid struggled when using MacPaint. Furthermore, the fact that so many people went to great lengths to archive the older versions of Kid Pix really demonstrated how much of an impact Kid Pix had on a whole generation of kids. There’s even a website reimplementation version of Kid Pix 1.0 that someone created. This timeline tries to communicate the realization I had while researching: what you create doesn't have to be incredibly complex, but rather it needs to prioritize and understand its audience. I already knew that Kid Pix had an impact on many peoples childhood but, I found out there are emulations for multiple Kid Pix versions which is really surprising. There's even a JS reimplentation of Kid Pix 1.0!<br><br>
 
 *Here are some links to the ones I have found so far!*
-- <a href="https://archive.org/details/kid-pix-10"><u>Kid Pix 1.0 by Craig Hickman</u></a>
-- <a href="https://archive.org/details/KID_PIX_WIN"><u>Kid Pix by Broderbund</u></a>
-- <a href="https://archive.org/details/kid-pix-sd-win31"><u>Kid Pix Studio Deluxe by Broderbund</u></a>
-- <a href="https://kidpix.neocities.org/"><u>Kid Pix JS (not offical)</u></a>
+- <a href="https://archive.org/details/kid-pix-10" classname="cursor-custom-pointer"><u>Kid Pix 1.0 by Craig Hickman</u></a>
+- <a href="https://archive.org/details/KID_PIX_WIN" classname="cursor-custom-pointer"><u>Kid Pix by Broderbund</u></a>
+- <a href="https://archive.org/details/kid-pix-sd-win31" classname="cursor-custom-pointer"><u>Kid Pix Studio Deluxe by Broderbund</u></a>
+- <a href="https://kidpix.neocities.org/" classname="cursor-custom-pointer"><u>Kid Pix JS (not offical)</u></a>
 <br><br>
 
 **REFLECTION** <br>

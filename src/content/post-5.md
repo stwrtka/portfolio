@@ -1,6 +1,6 @@
 **Visualization Analysis: Algorithmic Power**
 
-<a href="https://jasonfenggit.github.io/Visualizer/"><u>Visualizer</u></a> is an interactive pathfinding algorithm visualization that demonstrates the keyword power through mapping and design choices that limit the tools demographic.
+<a href="https://jasonfenggit.github.io/Visualizer/" classname="cursor-custom-pointer"><u>Visualizer</u></a> is an interactive pathfinding algorithm visualization that demonstrates the keyword power through mapping and design choices that limit the tools demographic.
 
 The creator of this visualization, Zhenbang Feng, is a Master Student at The University of Southern California and made this visualization to “help people to view algorithmic processes intuitively and entertainingly.” The overall project site has a clean interface with an easy to read font, colours and symbols. Additionally, it provides a short general description about pathfinding and how to interact with the tool. However, it lacks a description for individual algorithms within the general pathfinding algorithm. Furthermore, there is no explicit data displayed on the site, such as the time complexity or space complexity.
 

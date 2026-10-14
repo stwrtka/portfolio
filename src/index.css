@@ -2,6 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Gaegu&display=swap');
 @import "tailwindcss";
 
+@utility cursor-custom {
+    cursor: url('/public/cursor/default.png') 4 4, auto;
+}
+
+@utility cursor-custom-pointer {
+  cursor: url('/public/cursor/point.png') 8 0, auto;
+}
+
 .no-scrollbar::-webkit-scrollbar {
   display: none;
 }

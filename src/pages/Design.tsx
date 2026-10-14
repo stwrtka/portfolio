@@ -12,7 +12,7 @@ import '../index.css'
 
 function Design () {
    return (
-    <div className="flex flex-col text-white no-scrollbar min-h-screen font-body p-5">
+    <div className="cursor-custom flex flex-col text-white no-scrollbar min-h-screen font-body p-5">
         <h2 className="text-2xl text-green tracking-wide pb-5">
           design.
         </h2>
@@ -29,12 +29,12 @@ function Design () {
             <img src= {UGGcreen}/>
         </div>
 
-        <a href='/' className='font-bold text-pink pt-5'>home →</a>
+        <a href='/' className='cursor-custom-pointer font-bold text-pink pt-5'>home →</a>
         <footer className='flex justify-between pt-5 static'>
             <p className='text-xs text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>
             <div className='flex gap-5'>
-                <a href='https://www.linkedin.com/in/khadijastewart/'className='text-xs text-white underline'>Linkedin</a>
-                <a href='https://github.com/stwrtka'className='text-xs text-white underline'>GitHub</a>
+                <a href='https://www.linkedin.com/in/khadijastewart/'className='cursor-custom-pointer text-xs text-white underline'>Linkedin</a>
+                <a href='https://github.com/stwrtka'className='cursor-custom-pointer text-xs text-white underline'>GitHub</a>
             </div>
         </footer>
     </div>

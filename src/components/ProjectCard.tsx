@@ -17,7 +17,7 @@ function ProjectCard(content: CardInfo) {
           <img className="scale-90" src={content.icon} />
           <div className="inline-flex flex-col justify-start gap-1">
             <a href={content.link}>
-              <div className="self-stretch justify-start text-green text-base font-bold">{content.title}</div>
+              <div className="cursor-custom-pointer self-stretch justify-start text-green text-base font-bold">{content.title}</div>
             </a>
             <div className="self-stretch justify-start text-sm font-normal  text-yellow">{content.tech_stack}</div>
             <div className="self-stretch justify-star text-xs font-normal">{content.description}</div>
@@ -31,7 +31,7 @@ function ProjectCard(content: CardInfo) {
       <div className="left-0 inline-flex gap-3.5">
         <div className="inline-flex flex-col justify-start gap-1">
           <a href={content.link}>
-            <div className="self-stretch justify-start text-green text-base font-bold">{content.title}</div>
+            <div className="cursor-custom-pointer self-stretch justify-start text-green text-base font-bold">{content.title}</div>
           </a>
           <div className="self-stretch justify-start text-base font-normal text-yellow">{content.tech_stack}</div>
           <div className="self-stretch justify-start text-xs font-normal">{content.description}</div>

@@ -10,14 +10,14 @@ export default function BlogLayout() {
     <div className="min-h-screen text-white grid grid-cols-1 md:grid-cols-[25%_75%]">
       <div className="p-1 overflow-y-auto max-h-screen no-scrollbar">
         <h2 className="text-2xl text-pink tracking-wide "> blog.</h2>
-        <div className="w-60 h-0.5 bg-white my-5" />
+        <div className="w-60 h-0.5 bg-white my-5"/>
 
         <ul className="space-y-6">
           {posts.map((post) => (
             <li key={post.id}>
               <button
                 onClick={() => setSelectedId(post.id)}
-                className={`text-left w-full rounded-md px-2 py-1 -mx-2 ${
+                className={`cursor-custom-pointer text-left w-full rounded-md px-2 py-1 -mx-2 ${
                   selectedId === post.id ? "bg-white/10" : "hover:bg-white/5"
                 }`}
               >
@@ -37,7 +37,7 @@ export default function BlogLayout() {
             <h1 className="text-5xl font-bold tracking-wide">
               {selected.title}
             </h1>
-            <p className="font- text-pink/90 mt-2">{selected.course}</p>
+            <p className="text-pink/90 mt-2">{selected.course}</p>
             <PostContent slug={selected.slug} />
           </>
         ) : (
