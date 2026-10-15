@@ -3,11 +3,11 @@
 @import "tailwindcss";
 
 @utility cursor-custom {
-    cursor: url('/public/cursor/default.png') 4 4, auto;
+    cursor: url('/public/cursor/default.svg') 4 4, auto;
 }
 
 @utility cursor-custom-pointer {
-  cursor: url('/public/cursor/point.png') 8 0, auto;
+  cursor: url('/public/cursor/point.svg') 8 0, auto;
 }
 
 .no-scrollbar::-webkit-scrollbar {
