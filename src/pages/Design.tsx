@@ -13,6 +13,7 @@ import '../index.css'
 function Design () {
    return (
     <div className="cursor-custom flex flex-col text-white no-scrollbar min-h-screen font-body p-5">
+        <title>design.</title>
         <h2 className="text-2xl text-green tracking-wide pb-5">
           design.
         </h2>

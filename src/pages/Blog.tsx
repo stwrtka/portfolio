@@ -4,6 +4,7 @@ import '../index.css'
 function BlogView () {
   return (
     <body className='cursor-custom p-5'>
+    <title>design.</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <div className='pt-5 pb-5'>
           <BlogLayout />

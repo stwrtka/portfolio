@@ -6,6 +6,7 @@ import '../index.css'
 function Projects () {
    return (
     <div className=" cursor-custom flex flex-col text-white no-scrollbar min-h-screen font-body p-5">
+        <title>projects.</title>
         <h2 className="text-2xl text-yellow tracking-wide pb-5"> projects.</h2>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <div className='grid grid-cols-3 gap-5 place-items-center'>

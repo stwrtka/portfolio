@@ -4,6 +4,7 @@ function Home () {
    return (
     <div>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>home.</title>
       <div className="cursor-custom flex flex-col text-white no-scrollbar min-h-screen font-body p-5">
         <div className='flex-1 pt-5'>
           <h1 className='text-5xl pb-2'>Khadija Stewart</h1>
