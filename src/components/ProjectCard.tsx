@@ -15,7 +15,7 @@ function ProjectCard(content: CardInfo) {
             <div className="self-stretch justify-start text-yellow text-xl">{content.title}</div>
           <div className="self-stretch justify-start text-xs font-normal text-green">{content.tech_stack}</div>
           <div className="self-stretch justify-start text-base font-normal">{content.description}</div>
-          <a href={content.link} className='text-base text-blue'>Link ↗︎</a>
+          <a href={content.link} className='cursor-custom-pointer text-base text-blue'>Link ↗︎</a>
         </div>
       </div>
   )
