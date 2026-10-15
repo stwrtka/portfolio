@@ -18,6 +18,8 @@ function Home () {
       <a href='/blog' className='cursor-custom-pointer font-bold text-pink'>blog →</a>
       <a href='/design' className='cursor-custom-pointer font-bold text-green'>design →</a>
       <a href='/projects' className=' cursor-custom-pointer font-bold text-yellow'>projects →</a>
+      <a href='https://149hst.itch.io/' className=' cursor-custom-pointer font-bold text-blue'>sidequest →</a>
+
 
       <footer className='flex justify-between pt-2 static'>
         <p className='text-xs text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>
