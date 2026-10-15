@@ -5,7 +5,7 @@ function Projects () {
    return (
     <div className=" cursor-custom flex flex-col text-white no-scrollbar min-h-screen font-body p-5">
         <title>projects.</title>
-        <h2 className="text-2xl text-yellow tracking-wide pb-5"> projects.</h2>
+        <h2 className="text-2xl text-yellow tracking-wide pb-5 font-bold"> projects.</h2>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <div className='gap-10'>
             <ProjectCard title='Final Story' tech_stack='C, DevKitPro' description='2D shooter game for the 3Ds.' link='https://github.com/stwrtka/final-story'/>
