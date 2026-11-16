@@ -28,13 +28,13 @@ function Design () {
             <img src= {UGGcreen}/>
         </div>
 
-        <a href='/' className='cursor-custom-pointer font-bold text-pink pt-5'>home →</a>
-        <footer className='flex justify-between pt-5 static'>
-            <p className='text-xs text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>
-            <div className='flex gap-5'>
-                <a href='https://www.linkedin.com/in/khadijastewart/'className='cursor-custom-pointer text-xs text-white underline'>Linkedin</a>
-                <a href='https://github.com/stwrtka'className='cursor-custom-pointer text-xs text-white underline'>GitHub</a>
-            </div>
+        <a href='/' className='cursor-custom-pointer font-bold text-pink pt-5'>home</a>
+         <footer className='flex justify-between pt-2 static'>
+        <div className='flex gap-5'>
+          <a href='https://www.linkedin.com/in/khadijastewart/'className='cursor-custom-pointer cursor-custom-pointer text-xs text-white underline'>Linkedin</a>
+          <a href='https://github.com/stwrtka'className='cursor-custom-pointer text-xs text-white underline'>GitHub</a>
+        </div>
+        <p className='text-xs text-white'>©2026 Khadija Stewart. All Rights Reserved.</p>
         </footer>
     </div>
    )
