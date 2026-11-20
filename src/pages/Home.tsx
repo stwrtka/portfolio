@@ -10,7 +10,8 @@ function Home () {
           <h1 className='text-5xl pb-2'>Khadija Stewart</h1>
           <p className='border-b-2 w-120 py-2'>Computer Science, Math & CTS @ University of Guelph</p>
           <ul className='pt-2'>
-            <li>Graphic Design @ UofTHacks14 & Graphic Design @ BearHacks2027</li>
+            <li>Graphic Designer @ UofTHacks14</li>
+            <li> Graphic Designer @ BearHacks2027</li>
             <li>Prev. Undergraduate Research Assistant @ University of Guelph</li>
           </ul>
          <p><br></br>Seeking 2027 Summer Internships</p>
